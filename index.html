@@ -20,4 +20,13 @@
     <div id="color"></div>
 </div>
 </body>
+<script>
+    changeBackgroundColor();
+
+    function changeBackgroundColor() {
+        const dropdown = document.getElementById('dropdown');
+        document.body.style.backgroundColor = dropdown.value;
+        document.getElementById('color').innerText = dropdown.options[dropdown.selectedIndex].text;
+    }
+</script>
 </html>
