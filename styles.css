@@ -23,6 +23,7 @@
 
 #color {
     color: #fff;
-    font-size: 200px;
+    font-size: 100px;
+    font-family:  Arial, Helvetica, sans-serif;
     opacity: 0.8;
 }
